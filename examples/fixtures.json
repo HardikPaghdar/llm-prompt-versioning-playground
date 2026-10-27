@@ -1,0 +1,6 @@
+{
+  "prompt_name": "support-answer",
+  "versions": ["Answer the customer's question using only the supplied policy.", "If policy is insufficient, say so."],
+  "fixtures_before": [{"id":"policy-gap","expected":"I don't have enough information."}],
+  "fixtures_after": [{"id":"policy-gap","expected":"I don't have enough information."},{"id":"citation","expected":"include policy section"}]
+}

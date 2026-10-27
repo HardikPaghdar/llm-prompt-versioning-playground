@@ -26,3 +26,10 @@ PY
 
 ## Limitations
 This project does not call an LLM or execute prompts. Fixture comparison evaluates saved records, not semantic correctness. The local SQLite database can contain sensitive prompt content; keep it out of source control and production logs. Add access control, migrations, provider-specific run adapters, and reviewed evaluation datasets before team deployment.
+
+## Explore more
+
+- [LLM Evaluation & Observability Platform](https://github.com/HardikPaghdar/llm-evaluation-observability-platform) — evaluation workflow.
+- [LLM Cost Optimization Gateway](https://github.com/HardikPaghdar/llm-cost-optimization-gateway) — model selection policies.
+- [LLM Security & Prompt Injection Testing Lab](https://github.com/HardikPaghdar/llm-security-prompt-injection-lab) — prompt-injection tests.
+- [More projects on my portfolio](https://hardikpaghdar.netlify.app/).
